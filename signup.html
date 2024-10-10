@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign Up</title>
+	<style type="text/css">
+		body {
+			background: linear-gradient(to right, #5ccfd5, #786be0, #df37ed);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 95vh;
+			font-family: sans-serif;
+		}
+
+		img {
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+		}
+
+		.SignUp {
+			width: 300px;
+			height: 550px;
+			background-color: white;
+			color: black;
+			box-shadow: 0px 0px 2px white;
+			padding: 30px;
+			border-radius: 10px;
+			position: relative;
+
+		}
+
+		h1,
+		h5 {
+			text-align: center;
+			margin-block: 15px;
+		}
+
+		h5 {
+			opacity: 0.7;
+		}
+
+		input {
+			width: 100%;
+			height: 30px;
+			border: none;
+			border-bottom: 1px solid #8080805e;
+			box-shadow: 1px 1px 2px #808080bd;
+			border-radius: 10px;
+		}
+
+		button {
+			width: 100%;
+			height: 30px;
+			border-radius: 20px;
+			background: linear-gradient(to right, #5ccfd5, #786be0, #df37ed);
+			border: none;
+			margin-block: 10px;
+			color: white;
+			font-size: 18px;
+			/*padding: 5px;*/
+		}
+
+		.img {
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+			font-size: 14px;
+		}
+
+		.p {
+
+			/*padding-inline: 70px;*/
+			text-align: center;
+		}
+
+		.aa {
+			margin-block: 20px;
+		}
+
+		.a {
+			text-align: right;
+			position: absolute;
+			right: 10px;
+		}
+
+		label {
+			font-size: 14px;
+			color: #808080bd;
+		}
+
+		.mmm {
+			background: transparent;
+			color: black;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="SignUp">
+		<h1>Sign Up</h1>
+		<h5>Create Your Account</h5>
+		<div class="info">
+			<div class="name aa">
+				<label for="name">UserName</label>
+				<input type="text" name="name" placeholder="Enter Your Name">
+			</div>
+			<label for="Email">Email</label>
+			<input type="Email" name="Email" placeholder="Enter Your Email">
+			<div class="password aa">
+				<label for="password">Password</label>
+				<input type="password" name="password" placeholder="Enter Your Password">
+			</div>
+			<label for="password1">Confirm Password</label>
+			<input type="password" name="password1" placeholder="Confirm Your Password">
+		</div>
+		<button>Sign Up</button>
+		<p>OR</p>
+		<button class="mmm">Sign Up WIth Google</button>
+		<p class="p">Already Have An Account? <a href="login.html" target="blank">Login</a></p>
+	</div>
+</body>
+
+</html>
